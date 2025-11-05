@@ -1,2 +1,21 @@
-/venv
-/clean_data.csv
+# Python environment
+venv/
+env/
+__pycache__/
+*.pyc
+
+# DVC-tracked data and models (avoid duplicate tracking via Git)
+data/
+models/
+metrics/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Logs and temp files
+*.log
+tmp/
